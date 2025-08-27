@@ -320,7 +320,7 @@ if page == "Predict Performance":
         with col1:
             school = st.selectbox("School", ["", "GP", "MS"], index=0)
             sex = st.selectbox("Sex", ["", "F", "M"], index=0)
-            age = st.number_input("Age", min_value=15, max_value=22, value=0, placeholder="Select age")
+            age = st.number_input("Age", min_value=15, max_value=15, value=15, placeholder="Select age")
             address = st.selectbox("Address", ["", "U", "R"], index=0)
             famsize = st.selectbox("Family Size", ["", "LE3", "GT3"], index=0)
             Pstatus = st.selectbox("Parent's Cohabitation Status", ["", "T", "A"], index=0)
@@ -349,7 +349,7 @@ if page == "Predict Performance":
             Dalc = st.slider("Workday Alcohol Consumption (1-5)", 1, 5, value=None, format="%d")
             Walc = st.slider("Weekend Alcohol Consumption (1-5)", 1, 5, value=None, format="%d")
             health = st.slider("Current Health Status (1-5)", 1, 5, value=None, format="%d")
-            absences = st.number_input("Number of Absences", min_value=0, max_value=100, value=None, placeholder="Enter absences")
+            absences = st.number_input("Number of Absences", min_value=0, max_value=100, value=0, placeholder="Enter absences")
             G1 = st.number_input("First Period Grade (G1, 0-20)", min_value=0, max_value=20, value=0, placeholder="Enter G1")
             G2 = st.number_input("Second Period Grade (G2, 0-20)", min_value=0, max_value=20, value=0, placeholder="Enter G2")
         
