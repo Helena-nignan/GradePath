@@ -383,7 +383,7 @@ if page == "Predict Performance":
             input_df = pd.DataFrame([input_dict])
             
             try:
-                model = joblib.load('model_sk.joblib')
+                model = joblib.load('student_model.joblib')
                 prediction = model.predict(input_df)[0]
                 
                 # Store results in session state
