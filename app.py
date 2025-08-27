@@ -271,7 +271,7 @@ if page == "Predict Performance":
         <ul style="color:#222;font-size:1.05rem;line-height:1.7;">
             <li><b>Personal Information</b>:
                 <ul>
-                    <li><b>Age</b>: Student's age (15-22).</li>
+                    <li><b>Age</b>: Student's age (10-25).</li>
                     <li><b>Sex</b>: F = Female, M = Male.</li>
                     <li><b>Address</b>: U = Urban, R = Rural.</li>
                     <li><b>Family Size</b>: LE3 = ≤3 members, GT3 = >3 members.</li>
